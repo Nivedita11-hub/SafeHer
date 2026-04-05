@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Nivedita | Portfolio</title>
+    <title>SafeHer – Safety Assistant</title>
 
     <style>
         body {
@@ -13,21 +13,34 @@
 
         header {
             text-align: center;
-            padding: 40px;
+            padding: 50px;
             background: #020617;
         }
 
-        h1 { color: #38bdf8; }
+        h1 {
+            color: #38bdf8;
+            margin: 0;
+        }
+
+        h2 {
+            color: #38bdf8;
+        }
 
         section {
             padding: 30px;
+            max-width: 900px;
+            margin: auto;
         }
 
-        .project {
+        .card {
             background: #1e293b;
             padding: 20px;
             border-radius: 10px;
             margin-top: 20px;
+        }
+
+        ul {
+            line-height: 1.8;
         }
 
         a {
@@ -35,8 +48,10 @@
             text-decoration: none;
         }
 
-        ul {
-            line-height: 1.8;
+        img {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 10px;
         }
     </style>
 </head>
@@ -44,68 +59,69 @@
 <body>
 
 <header>
-    <h1>👩‍💻 Nivedita</h1>
-    <p>B.Tech CSE (AI/ML) Student</p>
+    <h1>🚨 SafeHer</h1>
+    <p>Discreet Safety Assistant</p>
 </header>
 
 <section>
-    <h2>🚀 About Me</h2>
-    <p>
-        Motivated Computer Science (AI/ML) student with strong skills in programming,
-        data structures, and problem-solving. Passionate about building real-world solutions.
-    </p>
-</section>
 
-<section>
-    <h2>💻 Skills</h2>
-    <ul>
-        <li>C, C++</li>
-        <li>Data Structures</li>
-        <li>Problem Solving</li>
-        <li>Python Basics</li>
-        <li>AI/ML Fundamentals</li>
-    </ul>
-</section>
-
-<section>
-    <h2>🚨 Project</h2>
-
-    <div class="project">
-        <h3>SafeHer – Discreet Safety Assistant</h3>
-
+    <div class="card">
+        <h2>💡 About the Project</h2>
         <p>
-            A safety application disguised as a calculator with hidden SOS features.
+            SafeHer is a smart personal safety application designed to help individuals
+            in unsafe environments request help without attracting attention.
+            It appears as a normal calculator but contains hidden emergency features.
         </p>
-
-        <ul>
-            <li>Hidden SOS trigger</li>
-            <li>Emergency SMS with location</li>
-            <li>Audio + photo evidence</li>
-            <li>Incident logging</li>
-        </ul>
-
-        <p><b>Tech:</b> Python, Tkinter, OpenCV, Twilio API</p>
-
-        <a href="https://github.com/Nivedita11-hub/SafeHer" target="_blank">
-            🔗 View on GitHub
-        </a>
     </div>
 
-</section>
+    <div class="card">
+        <h2>🔐 Key Features</h2>
+        <ul>
+            <li>Hidden SOS trigger using secret code</li>
+            <li>Emergency SMS alert to trusted contact</li>
+            <li>GPS location sharing with Google Maps link</li>
+            <li>Automatic audio recording for evidence</li>
+            <li>Webcam photo capture</li>
+            <li>Incident logging with timestamps</li>
+        </ul>
+    </div>
 
-<section>
-    <h2>📜 Certifications</h2>
-    <ul>
-        <li>CS50x – Harvard</li>
-        <li>Machine Learning – Stanford</li>
-        <li>Python – University of Michigan</li>
-        <li>OCI AI Foundations – Oracle</li>
-    </ul>
-</section>
+    <div class="card">
+        <h2>🛠 Technologies Used</h2>
+        <ul>
+            <li>Python</li>
+            <li>Tkinter</li>
+            <li>OpenCV</li>
+            <li>Geolocation API</li>
+            <li>Twilio API</li>
+        </ul>
+    </div>
 
-<section>
-    <h2>📞 Contact</h2>
-    <p>Email: maddiboyina.nivedita@email.com</p>
+    <div class="card">
+        <h2>📸 Screenshots</h2>
+
+        <h3>Calculator UI</h3>
+        <img src="screenshots/Calculator.png.png" alt="Calculator">
+
+        <h3>Hidden Dashboard</h3>
+        <img src="screenshots/Dashboard.png.png" alt="Dashboard">
+
+        <h3>SMS Alert</h3>
+        <img src="screenshots/SMS_Alert.png.png" alt="SMS Alert">
+
+        <h3>Live Location</h3>
+        <img src="screenshots/live_Loacation.png.png" alt="Live Location">
+    </div>
+
+    <div class="card">
+        <h2>🚀 GitHub Repository</h2>
+        <p>
+            <a href="https://github.com/Nivedita11-hub/SafeHer" target="_blank">
+                View Project on GitHub
+            </a>
+        </p>
+    </div>
+
 </section>
 
 </body>
