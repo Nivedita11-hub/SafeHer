@@ -46,10 +46,8 @@ SafeHer blends into everyday use while providing powerful emergency tools in cri
 ## 🚀 Demo (Add Screenshots Below)
 
 ### Calculator UI
-![Calculator](screenshots/calculator.png)
 
 ### Hidden Dashboard
-![Dashboard](screenshots/dashboard.png)
 
 ---
 
